@@ -1,0 +1,14 @@
+[Unit]
+Description=Douyin Downloader Web Service
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/douyin-downloader
+ExecStart=/usr/bin/python3 /opt/douyin-downloader/server.py
+Environment=PORT=8901
+Environment=DOUYIN_DL_CODE=改成你的口令
+Restart=always
+User=nobody
+
+[Install]
+WantedBy=multi-user.target
