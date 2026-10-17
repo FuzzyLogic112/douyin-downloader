@@ -23,6 +23,10 @@
 - **完整产物**：每条作品产出 `.mp4 + .jpg（封面）+ .txt（文案）+ .json（点赞/评论/转发/发布时间/音乐）`
 - **去水印修复**：给已经带烧录水印的本地视频（App 内保存、录屏来的）做 delogo 区域修复，附处理前后对照图
 
+下载产物一览（视频 + 封面 + 文案 + 元数据四件套）：
+
+<img src="result-files.png" width="720" alt="下载产物：mp4 / 封面 / 文案 / 元数据">
+
 ## 三种形态，任选其一
 
 | 形态 | 目录 | 适合谁 |
@@ -50,6 +54,10 @@ Windows 也可双击 `双击运行.bat`。产物落在脚本旁的 `downloads/` 
 2. 得到 `desktop/dist/抖音下载器.exe` —— 单文件免安装，拷到任何 Windows 电脑双击即用
 
 不想打包：双击 `desktop/启动下载器.bat` 直接开界面。macOS / Linux 用 `desktop/build-mac-linux.sh`。详见 [desktop/README.md](desktop/README.md)。
+
+桌面版在 Windows 上的实机运行：
+
+<img src="screenshot-windows.png.png" width="720" alt="桌面版在 Windows 上实机运行">
 
 ### Web 版
 
