@@ -27,15 +27,16 @@
 
 <img src="result-files.png" width="720" alt="下载产物：mp4 / 封面 / 文案 / 元数据">
 
-## 三种形态，任选其一
+## 四种形态，任选其一
 
 | 形态 | 目录 | 适合谁 |
 |---|---|---|
 | 命令行版 | 根目录 `douyin-dl.py` | 想要单文件、双击或终端批量跑的人 |
 | 桌面版 | [`desktop/`](desktop/) | 想要图形界面的人；可打包成免安装 exe |
 | Web 版 | [`web/`](web/) | 想部署到自己服务器、手机电脑都能开的人（支持 PWA 加主屏幕） |
+| MCP 版 | [`mcp/`](mcp/) | 想让其他 AI（Claude / Cursor 等支持 MCP 的客户端）直接调用的人：3 个工具 `douyin_parse / douyin_download / douyin_remove_watermark`，配置见 [mcp/README.md](mcp/README.md) |
 
-三者共用同一套久经实测的解析引擎，平台改版时只需更新引擎文件。
+四者共用同一套久经实测的解析引擎，平台改版时只需更新引擎文件。
 
 ## 快速开始
 

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "douyin-downloader": {
+      "command": "python3",
+      "args": ["REPLACE_WITH_ABSOLUTE_PATH/douyin-downloader/mcp/douyin_mcp_server.py"],
+      "env": {
+        "DOUYIN_DOWNLOAD_DIR": "REPLACE_WITH_ABSOLUTE_PATH/douyin-downloads"
+      }
+    }
+  }
+}
